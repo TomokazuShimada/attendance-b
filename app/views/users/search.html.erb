@@ -1,15 +1,11 @@
-<% provide(:title, 'All Users') %>
-<h1>ユーザー一覧</h1>
+<% provide(:title, 'Search') %>
+<h1>検索結果</h1>
 
-<div class="search">
-  <p>ユーザー名検索</p>
-    <%= form_tag @user, :method => 'get' do %>
-    <%= text_field_tag :search, params[:search], placeholder: "キーワードを入力" %>
-    <%= submit_tag "検索", :name => nil, class: "btn btn-md btn-primary" %>
-  </p>
-    <% end %>
-</div>
-
+<p>検索</p>
+<%= form_tag(search_user_path,:method => 'get') do %>
+  <%= text_field_tag :search %>
+  <%= submit_tag 'Search', :name => nil, class: "btn btn-md btn-primary" %>
+<% end %>
 
 <div class="col-md-10 col-md-offset-1">
   <%= will_paginate %>

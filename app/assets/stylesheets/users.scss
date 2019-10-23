@@ -1,15 +1,26 @@
 /* ユーザー情報テーブル */
+.btn {
+  margin: 0 10px;
+}
 
 .user-table {
   vertical-align: middle;
   text-align: center;
 }
 
+.wday0 {
+  color: blue;
+}
+
+.wday6 {
+  color: red;
+}
+
 /* ユーザー情報下ボタン */
 
 .btn-users-show {
   margin-top: -10px;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
 }
 
 /* ユーザー勤怠情報テーブル */
@@ -60,4 +71,14 @@
 .btn-basic-info {
   margin: 15px 0;
   width: 30%;
+}
+
+/* ユーザー一覧 */
+.search {
+  float: right;
+}
+
+.search p{
+  font-weight: bolder;
+  padding-top: 10px;
 }
