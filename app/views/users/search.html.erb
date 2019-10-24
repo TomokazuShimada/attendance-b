@@ -2,7 +2,7 @@
 <h1>検索結果</h1>
 
 <p>検索</p>
-<%= form_tag(search_user_path,:method => 'get') do %>
+<%= form_tag @user:method => 'get' do %>
   <%= text_field_tag :search %>
   <%= submit_tag 'Search', :name => nil, class: "btn btn-md btn-primary" %>
 <% end %>
