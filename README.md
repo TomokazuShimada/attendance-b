@@ -9,4 +9,4 @@
 * Rails
 * Git
 
-俺はできるやつや！
+俺はできrubygems
