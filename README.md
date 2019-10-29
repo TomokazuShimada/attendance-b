@@ -9,4 +9,8 @@
 * Rails
 * Git
 
+<<<<<<< HEAD
 俺はできrubygems
+=======
+ホントに勤怠B完成やで！
+>>>>>>> 35ea8ee9890ec9ebd834670f167b3cab039ec1eb
