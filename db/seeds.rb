@@ -16,5 +16,6 @@ User.create!(name: "Sample User",
                email: email,
                department: department,
                password: password,
-               password_confirmation: password)
+               password_confirmation: password,
+               admin: false)
 end
