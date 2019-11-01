@@ -11,4 +11,4 @@
 * Rails
 * Git
 
-Thank you KINTAI=B
+Thank you KINTAI
